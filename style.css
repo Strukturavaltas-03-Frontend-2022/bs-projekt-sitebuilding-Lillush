@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@200&family=Lato:wght@300&family=Mulish:wght@200&display=swap");
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border-radius: 90px;
+  padding: 18px 50px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: #fdcc52;
+}
+
+.navbar {
+  position: fixed;
+  width: 100vw;
+  z-index: 3;
+  background-color: transparent;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+
+.navbar-brand {
+  color: #fdcc52;
+}
+
+.navbar-brand:hover {
+  color: white;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: rgb(185, 185, 185);
+}
+
+.nav-item:hover {
+  color: white;
+}
+
+.nav-item:active {
+  color: white;
+}
+
+#first {
+  background-image: url(./bootstrap-sitebuilding-project/img/bg-pattern.png),
+    linear-gradient(to right, rgb(220, 36, 48), rgb(125, 66, 149));
+  background-repeat: repeat;
+  width: 100vw;
+  color: white;
+}
+
+/*.firstrow {
+  width: 100vw;
+}*/
+.phonePic {
+  width: 280px;
+}
+.phoneScreen {
+  width: 245px;
+}
+
+.firstPic {
+  position: relative;
+  z-index: 1;
+}
+
+.secondPic {
+  position: absolute;
+  align-self: center;
+  z-index: 2;
+  top: 65px;
+}
+
+.firstContent {
+  font-family: "Mulish", Helvetica, Arial, sans-serif;
+  font-size: 35px;
+}
+
+#second {
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 204, 83),
+    rgb(254, 198, 59)
+  );
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+}
+
+.main_second {
+  font-size: 60px;
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+}
+
+.text_second {
+  font-size: 18px;
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+.googleplay,
+.appstore {
+  width: 180px;
+}
+
+.unlimited {
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+}
+
+.checkout {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+.unHeader {
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+  font-size: 25px;
+}
+
+.unText {
+  font-family: "Muli", Helvetica, Arial, sans-serif;
+}
+
+#fourth {
+  color: white;
+  font-size: 45px;
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+  height: 500px;
+  width: 100vw;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url(./bootstrap-sitebuilding-project/img/bg-cta.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.firstPic2 {
+  position: relative;
+  z-index: 1;
+}
+
+.secondPic2 {
+  position: absolute;
+  justify-self: center;
+  z-index: 2;
+  top: 64px;
+  /*left: 53px;*/
+}
+
+.fa-mobile,
+.fa-camera,
+.fa-gift,
+.fa-unlock-alt {
+  height: 60px;
+  width: 60px;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgb(200, 82, 117),
+    rgb(162, 63, 111)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#fifth {
+  background-image: linear-gradient(
+    to right,
+    rgb(253, 204, 83),
+    rgb(254, 198, 59)
+  );
+  font-family: "Catamaran", Helvetica, Arial, sans-serif;
+  font-size: 60px;
+  height: 400px;
+}
+
+.twitter,
+.facebook,
+.linkedin {
+  font-size: 50px;
+  height: 100px;
+  width: 100px;
+  border-radius: 90px;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.twitter {
+  background-color: rgb(29, 161, 243);
+}
+
+.twitter:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.facebook {
+  background-color: rgb(59, 89, 153);
+}
+.facebook:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.linkedin {
+  background-color: rgb(39, 73, 145);
+}
+.linkedin:hover {
+  text-decoration: none;
+  opacity: 1;
+}
+
+.heart {
+  color: rgb(221, 76, 57);
+}
+
+@media only screen and (max-width: 992px) {
+  #first {
+    text-align: center;
+  }
+}
